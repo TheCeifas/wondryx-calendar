@@ -1,0 +1,50 @@
+{
+  "id": "wondryx-calendar",
+  "title": "Wondryx Calendar",
+  "description": "Calendário ilustrado com HUD sincronizado, clima, luas, estações, crônicas diárias e efeitos de cena para Foundry VTT v14.",
+  "version": "0.7.3",
+  "authors": [
+    {
+      "name": "Wondryx",
+      "url": "https://wondryx.cloud"
+    },
+    {
+      "name": "Fernando Marques"
+    },
+    {
+      "name": "Gustavo Arcanjo"
+    },
+    {
+      "name": "Francisco Taylor"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.367"
+  },
+  "esmodules": [
+    "scripts/wondryx-calendar.mjs"
+  ],
+  "styles": [
+    "styles/wondryx-calendar.css"
+  ],
+  "relationships": {
+    "recommends": [
+      {
+        "id": "fxmaster",
+        "type": "module",
+        "compatibility": {
+          "minimum": "8.3.6"
+        }
+      },
+      {
+        "id": "particule-fx",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.7.0"
+        }
+      }
+    ]
+  },
+  "license": "LICENSE.md"
+}
